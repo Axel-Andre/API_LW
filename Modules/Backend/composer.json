@@ -1,0 +1,25 @@
+{
+    "name": "lestudioduweb/backend",
+    "description": "",
+    "authors": [
+        {
+            "name": "Pierre DESFORGES",
+            "email": "pierre@lestudioduweb.fr"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Backend\\Providers\\BackendServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Backend\\": ""
+        }
+    }
+}

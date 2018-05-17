@@ -1,0 +1,4 @@
+######## Installation
+Change les valeurs dans .ENV
+ #> php artisan migrate
+ #> php artisan passport:install
